@@ -4,6 +4,9 @@ use App\Kernel;
 use Symfony\Component\Debug\Debug;
 use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\HttpFoundation\Request;
+ini_set("display_errors", "1");
+error_reporting(E_ALL);
+
 
 require __DIR__.'/../vendor/autoload.php';
 
